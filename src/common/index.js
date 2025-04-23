@@ -1,4 +1,4 @@
-const backendDomain='http://localhost:5050'
+const backendDomain='https://shoppingbackend-ue6m.onrender.com'
 
 
  
