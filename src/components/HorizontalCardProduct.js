@@ -82,7 +82,7 @@ console.log('jjjjjjjjjjjjjjjjjjjjjjjjjhjjjjjjjjjjjjj',data)
                         
                     <img src={product?.productImage[0]} className=' object-scale-down h-full hover:scale-110 transition-all' />
                     </div>
-                    <div className='p-4 grid'>
+                    <div className='w-fit p-4 grid'>
                     <h2 className='font-medium text-base md:text-lg text-ellipsis line-clamp-1 text-black '>{product?.productName}</h2>
                     <p className='capitalize text-slate-500'>{product?.category}</p>
                     <div className='flex gap-3'>
