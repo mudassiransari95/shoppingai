@@ -65,7 +65,7 @@ const Header = () => {
 <div className='relative flex justify-center'>
 {
   user?._id && (
-    <div className='text-3xl overflow-hidden cursor-pointer ' onClick={()=>setmenuDisplay((preve)=>!preve)}>
+    <div className='text-4xl overflow-hidden cursor-pointer ' onClick={()=>setmenuDisplay((preve)=>!preve)}>
   {
     user?.profilepic ? (
       <img src={user?.profilepic} alt='image' className='w-20 h-20 rounded-full'/>
